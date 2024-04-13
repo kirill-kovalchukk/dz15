@@ -1,0 +1,36 @@
+.holder {    
+    width: 300px;     
+    display: flex;    
+    flex-wrap: wrap;    
+    border-radius: 10px 10px 0 0; 
+    overflow: hidden;
+    border: 5px solid black;
+}
+    
+    .item {    
+        display: flex;    
+        justify-content: center;    
+        align-items: center;    
+        height: 60px;    
+        color: black;    
+        font-size: 20px;    
+        font-weight: bold;    
+        text-align: center;
+    }
+    
+    .item:nth-child(1) { 
+        background-color: red; 
+        width: 50%; } 
+        .item:nth-child(2) { 
+            background-color: yellow;
+             width: 50%; } 
+             .item:nth-child(3) {
+                 background-color: purple; 
+                 width: 33.33%; } 
+                 .item:nth-child(4) { 
+                    background-color: blue; 
+                    width: 33.33%; } 
+                    .item:nth-child(5) { 
+                        background-color: green; 
+                        width: 33.33%; } 
+
